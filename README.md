@@ -1,8 +1,8 @@
-# CI/CD Next.js Project
+# CI/CD com Next.js
 
-Projeto desenvolvido para praticar e demonstrar um pipeline completo de CI/CD utilizando Next.js, GitHub Actions, ESLint, Jest e deploy automatizado com Vercel.
+Projeto desenvolvido para demonstrar uma pipeline completa de CI/CD utilizando Next.js, GitHub Actions, ESLint, Jest e deploy automatizado na Vercel.
 
-## Tecnologias utilizadas
+## Tecnologias
 
 - Next.js
 - React
@@ -15,12 +15,12 @@ Projeto desenvolvido para praticar e demonstrar um pipeline completo de CI/CD ut
 ## Funcionalidades
 
 - Integração contínua com GitHub Actions
-- Verificação automática de lint
-- Build automatizado
-- Deploy contínuo na Vercel
-- Estrutura moderna com App Router
+- Testes automatizados com Jest
+- Verificação de código com ESLint
+- Deploy automático na Vercel
+- Interface moderna com Next.js
 
-## Executando o projeto
+## Como executar o projeto
 
 Clone o repositório:
 
@@ -28,7 +28,7 @@ Clone o repositório:
 git clone https://github.com/Geovanydev00/ci-cd-next.git
 ```
 
-Acesse a pasta:
+Entre na pasta:
 
 ```bash
 cd ci-cd-next
@@ -46,25 +46,26 @@ Execute o projeto:
 npm run dev
 ```
 
-Abra no navegador:
+## Testes
+
+Executar testes:
 
 ```bash
-http://localhost:3000
-```
-
-## Scripts disponíveis
-
-```bash
-npm run dev
-npm run build
-npm run lint
 npm run test
 ```
 
-## Deploy online
+Executar lint:
+
+```bash
+npm run lint
+```
+
+## Deploy Online
+
+Projeto disponível em:
 
 https://ci-cd-next-git-main-geovanydev.vercel.app/
 
-## Autor
+## Repositório
 
-Geovany Dev
+https://github.com/Geovanydev00/ci-cd-next
